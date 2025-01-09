@@ -1,0 +1,22 @@
+---
+import {
+  Astronav,
+  MenuItems,
+  MenuIcon,
+  Dropdown,
+  DropdownItems,
+  DropdownSubmenu,
+} from "astro-navbar";
+---
+<Dropdown class="text-center">
+    <button class="bg-green-900 p-1">
+      <span class="text-center">Galleries</span>
+   </button>
+    <DropdownItems class="absolute w-60">
+      <ul>
+        <li><a href="/page4">RAF Museum</a></li><br/>
+        <li><a href="/page5">East Lancs Railway</a></li><br/>
+        <li><a href="/page6">Darwen Tower Walk</a></li>
+      </ul>
+    </DropdownItems>
+</Dropdown>
