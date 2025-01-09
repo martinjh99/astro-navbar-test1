@@ -26,11 +26,12 @@ li a:hover,ul a:hover,button:hover{
   background-color: #004400;
 }
 
-  .content{
+  .content
+  {
     margin-left: 150px;
     margin-right: 50px;
     margin-top: 10px;
-}
+  }
 
 .hidden {
     display:none;
@@ -38,4 +39,6 @@ li a:hover,ul a:hover,button:hover{
 
 .para {
   margin-bottom: 25px;
+  
+  
 }
