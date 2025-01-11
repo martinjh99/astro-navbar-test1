@@ -8,8 +8,19 @@ body {
     font-family: 'Alegreya Variable', serif;
 }
 
-.menu{
+.menu {
   text-align: center;
+}
+
+menu.astronav-dropdown{
+  position: relative;
+}
+
+div.astronav-dropdown{
+  position: absolute;
+  background-color: #000000;
+  border: 1px solid #00aa00;
+  top: calc(100% + 4px);
 }
 
 .menu ul{ 
