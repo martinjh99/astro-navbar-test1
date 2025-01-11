@@ -5,6 +5,7 @@ body {
     background: linear-gradient(to right, rgb(23,100,23) 1%,black 10%) repeat;
     color: white;
     min-height: 100vh;
+    font-family: 'Alegreya Variable', serif;
 }
 ul{ 
     padding: 0px;
