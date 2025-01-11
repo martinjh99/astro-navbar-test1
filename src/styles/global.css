@@ -7,24 +7,29 @@ body {
     min-height: 100vh;
     font-family: 'Alegreya Variable', serif;
 }
-ul{ 
+
+.menu{
+  text-align: center;
+}
+
+.menu ul{ 
     padding: 0px;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     margin: 1em auto;
-    background: black;
   }
 
 
 
-  li {
+ .menu li {
     display: inline-block;
     padding: .5em;
-  }
+}
 
 li a:hover,ul a:hover,button:hover{
-  background-color: #004400;
+  background-color: #00aa00;
+  
 }
 
   .content

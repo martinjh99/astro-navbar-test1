@@ -2,10 +2,10 @@
 import {
   Astronav,
   MenuItems,
-  MenuIcon,
+/*   MenuIcon,
   Dropdown,
   DropdownItems,
-  DropdownSubmenu,
+  DropdownSubmenu, */
 } from "astro-navbar";
 
 import Dropdowns from "./dropdown.astro";
@@ -13,9 +13,9 @@ import '../styles/global.css'
 ---
 <Astronav>
       <MenuItems>
-        <ul>
+        <ul class="menu">
           <li><a href="/">Home</a></li>
-          <li><Dropdowns/></li>
+          <Dropdowns/>
         </ul>        
       </MenuItems>
 </Astronav>
